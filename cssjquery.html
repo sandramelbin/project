@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+     $(document).ready(function(){
+         $("#b1").click(function(){
+             $("p").css("background-color", "yellow");
+              });
+            });
+            $(document).ready(function(){
+                 $("#b2").click(function(){
+                    $("p").css("font-style","italic");
+                    });
+                 });
+    
+    </script>
+    <style>
+    #mydiv{
+         padding: 5px;
+          text-align: center;
+           background-color: #f3685f;
+            border: solid 1px #463b3b00;
+            height:500px;
+            width:400px;
+        }    
+    </style>
+</head>
+<body>
+<div id="mydiv">
+ <p>this is an heading</p>
+ <p>hi hello.......</p>
+ <button id="b1">change color click me</button><br><br>
+ <button id="b2">change font click me</butt0n>
+</div>
+</body>
+</html>
